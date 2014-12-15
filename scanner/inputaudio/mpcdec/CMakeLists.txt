@@ -26,6 +26,7 @@ if(GMODULE20_FOUND AND MPCDEC_FOUND AND
   set_target_properties(input_musepack PROPERTIES
           COMPILE_FLAGS ${INPUT_MPCDEC_CFLAGS}
              LINK_FLAGS ${INPUT_MPCDEC_LDFLAGS})
-endif()
 
-install(TARGETS input_musepack DESTINATION ${CMAKE_INSTALL_LIBDIR})
+  install(TARGETS input_musepack DESTINATION ${CMAKE_INSTALL_LIBDIR})
+
+endif()

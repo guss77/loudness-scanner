@@ -28,6 +28,7 @@ if(GMODULE20_FOUND AND GSTREAMER_FOUND AND
   set_target_properties(input_gstreamer PROPERTIES
           COMPILE_FLAGS ${INPUT_GSTREAMER_CFLAGS}
              LINK_FLAGS ${INPUT_GSTREAMER_LDFLAGS})
-endif()
 
-install(TARGETS input_gstreamer DESTINATION ${CMAKE_INSTALL_LIBDIR})
+  install(TARGETS input_gstreamer DESTINATION ${CMAKE_INSTALL_LIBDIR})
+
+endif()

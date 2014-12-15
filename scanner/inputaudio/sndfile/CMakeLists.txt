@@ -31,6 +31,7 @@ if(GMODULE20_FOUND AND SNDFILE_FOUND AND
     set_target_properties(input_sndfile PROPERTIES
                LINK_FLAGS ${INPUT_SNDFILE_LDFLAGS})
   endif()
-endif()
 
-install(TARGETS input_sndfile DESTINATION ${CMAKE_INSTALL_LIBDIR})
+  install(TARGETS input_sndfile DESTINATION ${CMAKE_INSTALL_LIBDIR})
+
+endif()
