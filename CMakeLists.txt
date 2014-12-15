@@ -6,7 +6,7 @@ set(EXECUTABLE_OUTPUT_PATH ${CMAKE_BINARY_DIR})
 set(LIBRARY_OUTPUT_PATH ${CMAKE_BINARY_DIR})
 
 include(utils)
-
+include(GNUInstallDirs)
 
 set(ENABLE_INTERNAL_QUEUE_H OFF CACHE BOOL "Use own queue.h")
 set(DISABLE_SPEEXDSP        OFF CACHE BOOL "Don't build with speexdsp")
