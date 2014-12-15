@@ -1,5 +1,5 @@
 Source: loudness-scanner
-Section: Utilities
+Section: sound
 Priority: optional
 Maintainer: Oded Arbel <oded@geek.co.il>
 Build-Depends: debhelper (>= 8.0.0), cmake
