@@ -8,7 +8,7 @@ Build-Depends: debhelper (>= 8.0.0), cmake,
   libtag1-dev,
   libglib2.0-dev,
   libmpg123-dev,
-  libavformat-dev libavcodec-extra-56
+  libavformat-dev, libavcodec-extra-56
 Standards-Version: 3.9.4
 Homepage: https://github.com/jiixyj/loudness-scanner
 #Vcs-Git: git://git.debian.org/collab-maint/loudness-scanner.git
