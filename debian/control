@@ -1,0 +1,25 @@
+Source: loudness-scanner
+Section: Sound
+Priority: optional
+Maintainer: Oded Arbel <oded@geek.co.il>
+Build-Depends: debhelper (>= 8.0.0), cmake
+Standards-Version: 3.9.4
+Homepage: https://github.com/jiixyj/loudness-scanner
+#Vcs-Git: git://git.debian.org/collab-maint/loudness-scanner.git
+#Vcs-Browser: http://git.debian.org/?p=collab-maint/loudness-scanner.git;a=summary
+
+Package: loudness-scanner
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: A tool that scans your music files for loudness normalisation
+  loudness-scanner is a tool that scans your music files according to the EBU R128 standard for loudness normalisation.
+  It optionally adds ReplayGain compatible tags to the files.
+  All source code is licensed under the MIT license. See LICENSE file for details.
+  Features:
+  - Supports all libebur128 features:
+    * Portable ANSI C code
+    * Implements M, S and I modes
+    * Implements loudness range measurement (EBU - TECH 3342)
+    * True peak scanning
+    * Supports all samplerates by recalculation of the filter coefficients
+  - ReplayGain compatible tagging support for MP3, OGG, Musepack, FLAC and more
