@@ -2,7 +2,13 @@ Source: loudness-scanner
 Section: sound
 Priority: optional
 Maintainer: Oded Arbel <oded@geek.co.il>
-Build-Depends: debhelper (>= 8.0.0), cmake
+Build-Depends: debhelper (>= 8.0.0), cmake, 
+  make, gcc, c++, pkg-config,
+  libsndfile1-dev,
+  libtag1-dev,
+  libglib2.0-dev,
+  libmpg123-dev,
+  libavformat-dev libavcodec-extra-56
 Standards-Version: 3.9.4
 Homepage: https://github.com/jiixyj/loudness-scanner
 #Vcs-Git: git://git.debian.org/collab-maint/loudness-scanner.git
